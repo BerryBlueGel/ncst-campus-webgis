@@ -1,0 +1,23 @@
+server:
+  address: ${SERVER_HOST:127.0.0.1}
+  port: ${SERVER_PORT:8080}
+spring:
+  application:
+    name: campus-webgis-server
+  datasource:
+    url: jdbc:postgresql://${DB_HOST:127.0.0.1}:${DB_PORT:5433}/${DB_NAME:campus_webgis}
+    username: ${DB_USERNAME:campus}
+    password: ${DB_PASSWORD}
+  flyway:
+    enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+  endpoint:
+    health:
+      show-details: always
+campus:
+  data-root: ${CAMPUS_DATA_ROOT:..}
+  import-on-start: ${CAMPUS_IMPORT_ON_START:false}

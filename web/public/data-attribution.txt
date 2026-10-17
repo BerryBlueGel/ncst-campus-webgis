@@ -1,0 +1,24 @@
+Campus WebGIS - Data attribution and source notice
+
+This is an independent campus visualization and GIS demonstration, not the university's official website.
+The following source credits are retained from the original campus export LICENSE.txt. They describe the input datasets, not a license for all application source code.
+
+Basemap: © OpenStreetMap contributors (ODbL)
+https://www.openstreetmap.org/copyright
+
+Buildings 3D: Overture Maps Foundation - Buildings 2026 (ODbL)
+Roads and railways: Overture Maps Foundation - Transportation 2026 (ODbL)
+Waterways, trees and green areas: Overture Maps Foundation - Base 2026 (ODbL)
+https://overturemaps.org/
+
+Digital Surface Model: Meta and World Resources Institute - Global Canopy Height Maps v2 2026 (CC BY 4.0)
+
+Digital Terrain Model (30 m): OpenGeoHub - Ensemble Digital Terrain Model (EDTM) 2023
+CC BY 4.0 - Ho, Y.-F., Hengl, T., Parente, L. (2023). Ensemble Digital Terrain Model (EDTM) of the world (Version 1.1) [Data set]. Zenodo.
+https://doi.org/10.5281/zenodo.7676373
+
+The original export was provided through topoexport.com. Original LICENSE.txt requires rigorous checks with surveyors before using these datasets because exported files can contain anomalies, inaccuracies and approximations.
+
+Project additions: campus plan georeferencing, simplified landmark reconstruction and sports geometry. Some dimensions and positions are schematic-derived estimates, not official survey measurements. The user has confirmed permission to redistribute the campus GLB and GIS datasets with required attribution. Reference photos are not republished here.
+
+Statistics use EPSG:32650 (UTM Zone 50N, meters). Road lengths and mapped green/water areas are sums of the recorded features, not complete cadastral or land-use inventories. Four stadiums are represented by eight track/pitch polygons.

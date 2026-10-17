@@ -1,0 +1,18 @@
+{
+  "sourceFile": "berrybluegel.png",
+  "sourceSha256": "4fd016a586c49d96bde3f2a73a8f488529fcaf91d3fbb1b7d562309153ac7223",
+  "treatment": "resize only; original framing and transparent background retained",
+  "pngSizes": [
+    32,
+    128,
+    180
+  ],
+  "icoSizes": [
+    16,
+    32,
+    48,
+    64,
+    128,
+    256
+  ]
+}

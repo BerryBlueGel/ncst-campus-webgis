@@ -1,0 +1,36 @@
+{
+  "name": "campus-webgis",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "prepare:gis": "tsx scripts/prepare-gis-data.ts",
+    "validate:gis": "tsx --test tests/gis.test.ts",
+    "dev": "vite --host 127.0.0.1",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "@turf/turf": "^7.4.0",
+    "axios": "^1.20.0",
+    "echarts": "^6.1.0",
+    "element-plus": "^2.14.6",
+    "maplibre-gl": "^6.10.0",
+    "pinia": "^4.0.3",
+    "proj4": "^2.22.0",
+    "three": "^0.186.0",
+    "vue": "^3.5.43",
+    "vue-router": "^5.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "@types/three": "^0.186.0",
+    "@vitejs/plugin-vue": "^6.0.9",
+    "prettier": "^3.9.8",
+    "tsx": "^4.23.15",
+    "typescript": "5.9.3",
+    "vite": "^8.3.0",
+    "vue-tsc": "^3.3.11"
+  }
+}

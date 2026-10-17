@@ -1,0 +1,102 @@
+/* Quiet, sky-blue map chrome. GIS colors and map geometry are unchanged. */
+.brand-mark.brand-image,.immersive-brand-mark.brand-image { display: block; object-fit: contain; aspect-ratio: 1; flex-shrink: 0; border-radius: 50%; background: transparent; box-shadow: none; }
+.brand-mark.brand-image { width: 42px; height: 42px; }
+.immersive-brand-mark.brand-image { width: 36px; height: 36px; }
+@media(max-width:800px) { .brand-mark.brand-image { width: 32px; height: 32px; } .immersive-brand-mark.brand-image { width: 27px; height: 27px; } }
+.map-page { --map-rail: 242px; --map-info: 286px; }
+.site-header { height: 68px; padding-inline: 24px; }
+.map-toolbar { height: 54px; padding-inline: 20px; flex-shrink: 0; }
+.toolbar-actions > button { white-space: nowrap; }
+.map-toolbar .breadcrumb { color: var(--sky-muted); }
+.panel { padding: 18px 18px 16px; scrollbar-width: thin; scrollbar-color: #c9dce9 transparent; }
+.layers { width: var(--map-rail); }
+.features { width: var(--map-info); }
+.panel-heading { padding-bottom: 12px; border-bottom: 1px solid #e4eef5; }
+.panel-heading h2 { margin: 0; font-size: 16px; color: var(--sky-ink); }
+.panel-heading button { background: transparent; width: 28px; height: 28px; padding: 0; }
+.gis-summary { margin: 12px 0 4px; color: var(--sky-muted); font-size: 11px; }
+.layer-group { margin: 0; }
+.layer-group h3 { margin: 12px 0 2px; font-size: 11px; font-weight: 600; letter-spacing: .04em; color: #58758b; }
+.layer-row { font-size: 12px; padding-block: 8px; }
+.layer-row input { accent-color: var(--sky-primary); width: 15px; height: 15px; flex-shrink: 0; }
+.gis-layer { display: grid; grid-template-columns: minmax(0,1fr) 30px; align-items: center; gap: 6px; padding: 0; border-color: #eef3f7; position: relative; }
+.gis-layer .layer-row { min-width: 0; gap: 6px; }
+.gis-layer .layer-row small { margin-left: auto; margin-right: 4px; font-size: 10px; color: #72899b; font-variant-numeric: tabular-nums; }
+.gis-layer .layer-row input { margin-left: 0; }
+.layer-opacity { font-size: 10px; color: #658399; }
+.layer-opacity > summary { cursor: pointer; list-style: none; padding: 9px 0; text-align: right; }
+.layer-opacity > summary::-webkit-details-marker { display: none; }
+.layer-opacity[open] { grid-column: 1 / -1; padding-bottom: 8px; }
+.layer-opacity[open] > summary { text-align: left; padding: 2px 0 6px; color: var(--sky-primary); }
+.opacity-row { gap: 8px; }
+.opacity-row input { width: 95px; max-width: 50%; }
+.layer-advanced, .load-metrics, .model-diagnostics { margin-top: 14px; padding-top: 12px; border-top: 1px solid #e4eef5; font-size: 11px; color: var(--sky-muted); }
+.layer-advanced > summary, .load-metrics > summary, .model-diagnostics > summary, .feature-provenance > summary, .analysis-method > summary { cursor: pointer; line-height: 1.6; }
+.layer-advanced p, .layer-advanced small, .model-diagnostics small { display: block; font-size: 11px; line-height: 1.7; }
+.model-status { margin: 3px 0 8px; font-size: 11px; color: var(--sky-muted); }
+.layers > .mock-note { margin: 12px 0 0; padding: 12px 0 0; border: 0; font-size: 10px; }
+.feature-detail { padding-top: 18px; }
+.feature-detail > .eyebrow { font-size: 11px; letter-spacing: .04em; color: #658399; }
+.feature-detail > h3 { font-size: 21px; line-height: 1.4; margin: 7px 0 8px; overflow-wrap: anywhere; }
+.feature-detail .feature-summary { margin: 0 0 8px; color: var(--sky-muted); font-size: 11px; line-height: 1.7; }
+.feature-detail .feature-storeys { margin: 0; color: #6b8396; font-size: 10px; }
+.feature-detail > .feature-actions { margin: 16px 0; gap: 7px; }
+.feature-actions button { min-height: 34px; font-size: 11px; border-color: #d6e7f1; }
+.feature-detail > .feature-actions > button:first-child { background: #ecf8ff; color: #077fb8; border-color: #bfe2f4; }
+.feature-detail dl { margin: 12px 0; }
+.feature-detail dl > div { padding-block: 11px; font-size: 11px; border-color: #e7eff5; }
+.feature-detail dt { max-width: 52%; color: #6b8396; }
+.feature-detail dd { overflow-wrap: anywhere; }
+.feature-provenance { margin: 16px 0; padding-top: 14px; border-top: 1px solid #e4eef5; font-size: 11px; color: var(--sky-muted); }
+.feature-provenance p { font-size: 11px; color: #58758b; }
+.empty-feature { padding: 36px 0 25px; }
+.empty-symbol { width: 56px; height: 56px; font-size: 28px; margin-bottom: 16px; background: #f4fbff; }
+.features .location-card { margin-top: auto; padding: 16px 0 0; border: 0; border-top: 1px solid #e4eef5; background: none; border-radius: 0; }
+.features .location-card h3 { font-size: 14px; margin: 8px 0; }
+.features .location-card .location-line { margin: 14px 0; }
+.features .location-card strong { font-size: 11px; }
+.analysis-open { left: auto; right: 12px; top: 198px; transform: none; padding: 8px 12px; border: 1px solid #cde5f3; border-radius: 6px; background: #fff; color: #17658e; box-shadow: 0 2px 6px #123e5710; font-size: 11px; }
+.features ~ .analysis-open { right: calc(var(--map-info) + 12px); }
+.map-workspace.analysis-active > .layers, .map-workspace.analysis-active > .reopen.left { display: none; }
+.analysis-active > .analysis-workbench { position: relative; order: -1; top: auto; bottom: auto; left: auto; flex: 0 0 286px; width: 286px; max-height: 100%; margin: 0; padding: 18px; background: #fff; border: 0; border-right: 1px solid var(--sky-border); border-radius: 0; box-shadow: none; scrollbar-width: thin; }
+.analysis-workbench h2 { font-size: 16px; margin: 0; line-height: 28px; }
+.analysis-intro { font-size: 11px; margin: 12px 0; color: var(--sky-muted); }
+.analysis-method { font-size: 11px; color: #58758b; margin: 0 0 14px; }
+.analysis-method p { font-size: 11px; line-height: 1.7; }
+.analysis-tool-grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 6px; margin-top: 14px; }
+.analysis-tool-grid button { min-height: 34px; font-size: 11px; }
+.analysis-workbench select, .analysis-workbench input { font: inherit; font-size: 12px; }
+.analysis-hint { color: #3a6a86; background: #eff8fd; line-height: 1.6; font-size: 11px; }
+.analysis-workbench .analysis-options label { color: #58758b; font-size: 11px; gap: 6px; }
+.analysis-result { margin-top: 14px; }
+.analysis-actions button { font-size: 11px; white-space: nowrap; padding: 8px 3px; min-width: 0; }
+.analysis-result > small { color: #72899b; font-size: 10px; }
+.analysis-feature-list small { max-width: 45%; overflow-wrap: anywhere; font-size: 9px; }
+.status-bar { height: 30px; min-height: 30px; flex-shrink: 0; font-variant-numeric: tabular-nums; }
+@media(min-width:801px) and (max-width:1150px) {
+  .map-page { --map-rail: 216px; --map-info: 250px; }
+  .panel { padding-inline: 14px; }
+  .analysis-active > .analysis-workbench { flex-basis: 260px; width: 260px; padding: 14px; }
+  .map-toolbar .breadcrumb { display: none; }
+  .map-toolbar .toolbar-actions { width: 100%; justify-content: flex-end; }
+  .campus-search { margin-right: auto; }
+}
+@media(max-width:800px) {
+  .map-toolbar { height: auto; padding: 8px; }
+  .toolbar-actions { flex-wrap: wrap; width: 100%; gap: 6px; }
+  .toolbar-actions .campus-search { flex: 1 0 100%; }
+  .toolbar-actions .campus-search input { width: 100%; font-size: 12px; padding: 9px 10px; }
+  .toolbar-actions > button { flex: 1; padding: 8px 6px; font-size: 11px; min-height: 34px; }
+  .toolbar-actions > button.overview-entry { display: none; }
+  .toolbar-actions > button.immerse-entry { display: block; }
+  .panel.layers { width: min(280px,82vw); padding: 16px; }
+  .panel.features { width: 100%; height: min(48dvh,390px); padding: 14px 18px; }
+  .feature-detail { padding-top: 12px; }
+  .feature-detail > h3 { font-size: 18px; }
+  .feature-detail > .feature-actions { margin: 12px 0; }
+  .analysis-active > .analysis-workbench { position: absolute; top: auto; left: 8px; right: 8px; bottom: 8px; width: auto; max-height: min(54dvh,460px); padding: 14px; border: 1px solid var(--sky-border); border-radius: 12px; box-shadow: 0 8px 30px #123e5720; }
+  .analysis-tool-grid { grid-template-columns: repeat(4,minmax(0,1fr)); }
+  .analysis-open { top: auto; bottom: 62px; }
+  .status-bar { height: 26px; min-height: 26px; flex-wrap: nowrap; white-space: nowrap; line-height: 14px; overflow: hidden; }
+  .status-bar > span:nth-child(n+4) { display: none; }
+}

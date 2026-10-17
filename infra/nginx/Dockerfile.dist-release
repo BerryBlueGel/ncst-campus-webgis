@@ -1,0 +1,6 @@
+# Repackage an already-tested Vite dist without rebuilding Node on the small VPS.
+ARG BASE_WEB_IMAGE=campus-webgis-web:20260929-hk-stage1
+FROM ${BASE_WEB_IMAGE}
+RUN rm -rf /usr/share/nginx/html/*
+COPY dist/ /usr/share/nginx/html/
+RUN chmod -R a+rX /usr/share/nginx/html

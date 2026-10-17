@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /models/
+Disallow: /data/
+
+Sitemap: https://ncstgeo.cn/sitemap.xml

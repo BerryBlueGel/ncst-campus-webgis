@@ -1,0 +1,12 @@
+campus:
+  import-on-start: false
+server:
+  forward-headers-strategy: framework
+  shutdown: graceful
+spring:
+  lifecycle:
+    timeout-per-shutdown-phase: 20s
+management:
+  endpoint:
+    health:
+      show-details: never

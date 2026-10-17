@@ -1,0 +1,5 @@
+# Keep preceding hashed assets for tabs opened before the frontend switch.
+ARG BASE_WEB_IMAGE=campus-webgis-web:20261009-detail-batches
+FROM ${BASE_WEB_IMAGE}
+COPY dist/ /usr/share/nginx/html/
+RUN chmod -R a+rX /usr/share/nginx/html
