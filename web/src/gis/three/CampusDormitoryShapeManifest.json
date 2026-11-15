@@ -1,0 +1,7 @@
+{
+  "version": "v002",
+  "sha256": "7AA7EA5FCCEBD47DCC9A61CD4F5E8673B13C87867F5E5C8462EA37735B672948",
+  "dormitoriesReviewed": 53,
+  "newShapeCorrections": 2,
+  "districts": {"兰园":14,"竹园":10,"菊园":12,"梅园":17}
+}

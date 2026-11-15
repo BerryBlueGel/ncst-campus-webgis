@@ -6,11 +6,27 @@
 
 ## 公开源码范围
 
-本仓库仅发布前后端程序、测试代码与必要配置。**不包含校园 GLB/Blender 模型、GeoJSON、影像、数据库内容、建筑参数与几何清单、生产凭据或运行记录。** 含校园几何的 TypeScript 模块和模型 manifest 也已排除，不能仅靠扩展名判断是否属于数据。
+本仓库发布前后端完整源码、测试、建模生成/导出/校验脚本、诊断页面和部署工具。代码内经审核的楼体尺寸、描绘坐标与模型绑定参数清单一并公开。**不包含校园 GLB/Blender 模型、原始 GeoJSON、源影像、数据库内容、生产凭据、部署发布包或运行记录。** 下方三张用户提供的界面预览图是明确许可的展示素材例外，不是原始地理数据。
 
-因此，克隆源码后需要自行提供有授权的数据及对应参数模块，才能构建并运行完整校园；不是开箱即用的校园数据包。在线演示使用的真实资料不随此仓库再分发。依赖数据的测试也需要这些本地资料。参见 [数据依赖说明](SOURCE_DATA_REQUIREMENTS.md)。网站插图标识按项目用途使用，不据此授予第三方素材的再许可。
+因此，克隆源码后可安装依赖并构建前端程序；要实际加载完整校园、运行数据导入与数据依赖测试，仍需自行提供有授权的模型和 GIS 数据。本仓库不是开箱即用的校园数据包。参见 [数据依赖说明](SOURCE_DATA_REQUIREMENTS.md)。网站插图标识按项目用途使用，不据此授予第三方素材的再许可。
 
 [在线地图](https://ncstgeo.cn/map) · [统计概览](https://ncstgeo.cn/dashboard) · [空间分析](https://ncstgeo.cn/analysis) · [项目介绍](https://ncstgeo.cn/about)
+
+## 界面预览
+
+### 三维校园地图
+
+![华北理工大学三维校园地图与图层管理](docs/previews/campus-3d.png)
+
+### 空间分析
+
+![二维校园地图与 Turf/PostGIS 空间分析工具](docs/previews/spatial-analysis.png)
+
+### 沉浸校园
+
+![独立 Three.js 沉浸校园与图书馆地标选取](docs/previews/immersive-campus.png)
+
+预览来自用户提供的线上页面截图；建筑轮廓、立面与高度包含展示级近似，不代表全校实测成果。
 
 ## 三分钟演示
 
@@ -32,11 +48,14 @@ HTTPS → Nginx → Vue 3 / TypeScript / MapLibre / Three.js / Turf
 
 ## 项目目录
 
-- `web/`：前端、测试、Phase 1–8 历史验收材料。
+- `web/`：前端、测试、GIS 数据处理与建模参数导出脚本（历史验收材料不随仓库分发）。
 - `server/`：REST API、PostGIS 查询、Flyway migration。
 - `infra/`：生产 Docker Compose、Nginx、HTTPS、备份与健康检查。
-- `output/`：版本化校园模型，稳定版本禁止覆盖。
-- `reference/`、`blender/`：模型参考、定位记录与建模工作文件。
+- `scripts/`：Blender 建模、GIS 定位、模型集成、导出和校验工具。
+- `diagnostics/`：早期模型浏览与回归测试页面源码，不含测试报告和资产。
+- `reference/`：保留的模型评审页面源码；影像、定位记录及模型资料不随仓库分发。
+- `docs/previews/`：经许可的三张界面预览图。
+- `output/`、`blender/` 等运行时数据目录需要自行准备，稳定模型禁止覆盖。
 
 前端启动和验证见 [web/README.md](web/README.md)，后端见 [server/README.md](server/README.md)，生产部署见 `infra/` 内说明。不要提交 `.env`、私钥或服务凭据。
 

@@ -1,0 +1,559 @@
+{
+  "version": "release_v004",
+  "sha256": "D3A1AF6C4C50DA144CDF287AD39D603FD024C27D56A7318320A76FAF932EAB48",
+  "url": "/__campus_review/model.glb",
+  "heightEstimates": {
+    "buildings:e0efafd2ba8a8ff80c98": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:5c8c799c7e2e669a5957": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:1bfc41f2bdc3b32069b5": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:c5098332f3dd16729126": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:4b4e002af6e98d730dd3": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:59cf707ba187558ee74e": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:ddb0086eed4e96258c6b": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:4134dddc73d0db640367": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:d1d687fd615e19da64ed": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:ba3556de74bdf2cf888e": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:05b4609106667404300c": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:d207671023630541fee7": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:0660f20273968efd90e8": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:2123b08ed59b78dd2364": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:1f92ad38fad8ee297bbe": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:3b216e82b3a5fbd7a8b8": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:320265b6555cf6798bc5": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:6a2343858af4341a2b5e": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:7612d4df140331fe641e": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:0aae7d66a2d87663a197": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:c5d686483497ea62491e": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:69dee2704484a5676bd6": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:77515d231f35cf949244": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:fcdc583875df6cb1dd20": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:550f0d972087b9ef1e74": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:0644ef53eafa507aa16b": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:c799c87a7d72821f776f": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:95abe911cd0d770fcea6": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:37557d780f79fe3b977e": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:2fafd3fcde3533c668fd": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:c540ee930ef202aa6959": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:ef3d7182e2f476d040fa": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:c09b0ffc76cdc23213cd": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:f1ce25a2b7420f9cc7bd": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:5285b4142947f6c289a9": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:2d6e3429af853b1bb4b0": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:620cd73835fe1dd39a14": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:427db9e5759ebe5519bd": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:47fc42562e0cb8b677cd": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:b1c906243f6aa6676326": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:daa1a0ba42ba95b1dbf8": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:2f55dee35758bde3500f": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:fde6ef1d879648be11cf": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:a8d5bae391b5ca520d68": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:f873a346f9ac588fcb88": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:337d2483b975bf7d5348": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:305e836eb2af112c884f": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:2f54607c1e33495d00b4": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:69873c4ed0e856adb160": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:23a65e7b974b1a6c69dc": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:c1a62d3431a6223b40f3": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:bdfb8741b05f9fd83a15": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:a85b521766ccf67daead": {
+      "storeys": 5,
+      "storeyHeightMeters": 3.1,
+      "bodyHeightMeters": 15.5,
+      "heightAboveRootMeters": 16.1
+    },
+    "buildings:119a94f3e7e585a533e1": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.430000000000003
+    },
+    "buildings:2ac3ae0f3c8f8ebc9052": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.430000000000003
+    },
+    "buildings:2f2c84cadd1be3b196b5": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.430000000000003
+    },
+    "buildings:801a933bca94e1a3e513": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.430000000000003
+    },
+    "buildings:3c0be6adc754661c3cf1": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.430000000000003
+    },
+    "buildings:fc63707b67a778c1dd5e": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.430000000000003
+    },
+    "buildings:7b71dc7137f61b013149": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.430000000000003
+    },
+    "buildings:9d12731a8fc687f20c37": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.430000000000003
+    },
+    "buildings:5b1938051515754004ab": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:a1985398a83643027a03": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:bd660fec95c437579797": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:dcea1c9614744dcfce1d": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:51c39a534b9f37902d58": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:6ec99a0af367bfd980f4": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:140282bbc730b1777d14": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:c4413d5a7dda1c0312d4": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:e072c019ac6d1d730572": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:a50682221e1fa05f267b": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:fb5aee449a57ed5df550": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:610064d59b3aaf6dddc5": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:71491b7a02820e1b3838": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:cf68dba2ec49260e0733": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:0de1148c8c38994c1f49": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:08877aec7b9527f279ec": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:0753c07f7d914356571c": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:365e6331f25080213dd4": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:657015eebb61df07a228": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:4770b102ad076d687364": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:a3276386cdee805cb68d": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:e45158b303c5d810c326": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:390c997ba0fda995e336": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:73c56e34242855f03fa1": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:2d7a6c32c34801f6495e": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:4ca22c55f914092b4e65": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:850755baf9695c35d6f0": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:6641d080d2168893daa4": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:52e6ff3e2b5b8b9f18f3": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:41e976045d6ae2f14056": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    },
+    "buildings:61a517f42a95ddd995f8": {
+      "storeys": 4,
+      "storeyHeightMeters": 4.2,
+      "bodyHeightMeters": 16.8,
+      "heightAboveRootMeters": 17.380000000000003
+    }
+  }
+}

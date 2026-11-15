@@ -1,0 +1,9 @@
+[Unit]
+Description=Renew Campus WebGIS TLS certificate
+After=network-online.target snap.docker.dockerd.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/var/snap/docker/common/campus-webgis
+ExecStart=/bin/bash /var/snap/docker/common/campus-webgis/infra/scripts/renew-certificate.sh

@@ -1,0 +1,9 @@
+docker/.env
+backup/*
+!backup/README.md
+acme/*
+!acme/.gitkeep
+certs/
+*.dump
+*.key
+*.pem

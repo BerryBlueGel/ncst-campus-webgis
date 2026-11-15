@@ -1,0 +1,9 @@
+{
+  "name": "campus-phase1-web-test",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "three": "0.180.0"
+  }
+}
